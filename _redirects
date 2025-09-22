@@ -1,0 +1,8 @@
+# Redirecionar raiz para login
+/    /login.html    200
+
+# Redirecionar index para login se não autenticado
+/index.html    /login.html    200
+
+# Permitir acesso direto aos arquivos
+/login.html    /login.html    200
